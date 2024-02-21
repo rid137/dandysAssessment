@@ -1,19 +1,7 @@
-import React, { useState } from 'react'
-import aboutUsBg from "../../assets/home/aboutUsBg.png"
-// import { avatar1 } from "../src/assets/avatar1.jpg";
+import { useState } from 'react'
 import avatar from "../src/assets/avatar1.jpg"
 import eye from '../src/assets/eye.png'
 import crossedEye from '../src/assets/crossed-eye.png'
-
-
-interface AboutUsInfoProps {
-    item: {
-      id: number;
-      title: string;
-      body: string;
-      img: string;
-    };
-};
 
 
 const App = () => { 
